@@ -1,2 +1,1 @@
 # juegoMiedoJoseCris
-Putos negros
