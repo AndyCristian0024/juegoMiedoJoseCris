@@ -1,0 +1,160 @@
+body {
+    background: linear-gradient(135deg,
+            #6f8fa8 0%,
+            #3e5c75 40%,
+            #1f3447 70%,
+            #0f1c2a 100%);
+    margin: 0;
+    padding: 0;
+}
+
+.escena {
+    margin: 0;
+    height: 100vh;
+    background-image: url("img/PrimerEscena.jpg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: scroll;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    position: relative;
+}
+
+#inicio {
+
+    background-color: transparent;
+    color: red;
+    padding: 20px 40px;
+    text-align: center;
+    border-radius: 15px;
+    margin: 0;
+    height: auto;
+    max-width: 80%;
+    font-size: 24px;
+    font-weight: bold;
+}
+
+#segunda {
+    position: absolute;
+    top: 25%;
+    left: 30%;
+    width: 200px;
+    height: 200px;
+    z-index: 10;
+}
+
+#tercera {
+    position: absolute;
+    top: 58%;
+    left: 47%;
+    width: 10%;
+    height: 20%;
+    z-index: 11;
+}
+
+#cuarta {
+    position: absolute;
+    top: 60%;
+    left: 40%;
+    width: 10%;
+    height: 20%;
+    z-index: 9;
+}
+
+#sexta {
+    position: absolute;
+    top: 75%;
+    left: 30%;
+    width: 10%;
+    height: 20%;
+    z-index: 8;
+}
+
+#septima {
+    position: absolute;
+    top: 38%;
+    left: 49%;
+    width: 12%;
+    height: 35%;
+    z-index: 9;
+}
+
+.susto1 {
+    position: absolute;
+    top: 32%;
+    left: 36%;
+    width: 9%;
+    height: 30%;
+    z-index: 6;
+}
+
+.susto2 {
+    position: absolute;
+    top: 35%;
+    left: 50.5%;
+    width: 8%;
+    height: 28%;
+    z-index: 6;
+}
+
+#decima {
+    position: absolute;
+    top: 32%;
+    left: 65%;
+    width: 7%;
+    height: 31%;
+    z-index: 5;
+}
+
+#puerta1 {
+    position: absolute;
+    top: 32%;
+    left: 40%;
+    width: 7%;
+    height: 30%;
+    z-index: 6;
+}
+
+#puerta2 {
+    position: absolute;
+    top: 32%;
+    left: 45%;
+    width: 7%;
+    height: 25%;
+    z-index: 6;
+}
+
+#puerta3 {
+    position: absolute;
+    top: 32%;
+    left: 50%;
+    width: 9%;
+    height: 30%;
+    z-index: 6;
+}
+
+
+#final {
+    position: absolute;
+    top: 10%;
+    left: 45%;
+    width: 9%;
+    height: 30%;
+    z-index: 6;
+}
+#tercera,
+#quinta,
+#sexta,
+#septima,
+#octava,
+#decima,
+#puerta1,
+#puerta2,
+#puerta3,
+.susto1,
+.susto2, 
+#final{
+    display: none;
+}
