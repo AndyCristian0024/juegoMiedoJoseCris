@@ -111,7 +111,7 @@ body {
 #puerta1 {
     position: absolute;
     top: 32%;
-    left: 40%;
+    left: 30%;
     width: 7%;
     height: 30%;
     z-index: 6;
@@ -129,7 +129,7 @@ body {
 #puerta3 {
     position: absolute;
     top: 32%;
-    left: 50%;
+    left: 60%;
     width: 9%;
     height: 30%;
     z-index: 6;
