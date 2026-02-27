@@ -40,7 +40,7 @@ body {
     position: absolute;
     top: 25%;
     left: 30%;
-    width: 200px;
+    width: 270px;
     height: 200px;
     z-index: 10;
 }
@@ -56,17 +56,17 @@ body {
 
 #cuarta {
     position: absolute;
-    top: 60%;
-    left: 37%;
-    width: 30%;
-    height: 20%;
+    top: 54%;
+    left: 42%;
+    width: 11%;
+    height: 14%;
     z-index: 9;
 }
 
 #sexta {
     position: absolute;
     top: 75%;
-    left: 30%;
+    left: 21%;
     width: 10%;
     height: 20%;
     z-index: 8;
@@ -74,9 +74,9 @@ body {
 
 #septima {
     position: absolute;
-    top: 38%;
+    top: 35%;
     left: 49%;
-    width: 12%;
+    width: 15%;
     height: 35%;
     z-index: 9;
 }
