@@ -40,6 +40,7 @@ function segundo() {
 
 function tercero() {
     document.getElementById("tercera").style.display = "none";
+    document.getElementById("cuarta").style.display= "none";
     let principal = document.getElementById("Principal");
     let texto = document.getElementById("inicio");
 
