@@ -219,14 +219,20 @@ function final1() {
     document.getElementById("final1").style.display = "none";
     cambiarMusicaFinal();
     let principal= document.getElementById("Principal");
+    let texto = document.getElementById("inicio");
     principal.style.backgroundImage = "url(img/UltimaEscena.jpg)"
+    texto.style.display = "block";
+    texto.innerHTML = "FUTBO FUTBO FUTBO";
 }
 
 function final2() {
     document.getElementById("final2").style.display = "none";
     cambiarMusicaFinal2();
     let principal= document.getElementById("Principal");
+    let texto = document.getElementById("inicio");
     principal.style.backgroundImage = "url(img/FinalAlternativo.jpg)"
+    texto.style.display = "block";
+    texto.innerHTML = "¿Salir de aquí? Ja, ja, ja, ja, ¿tú? Ja, ja, ja, ja";
 }
 
 function restaIntento(intentosRestantes) {
