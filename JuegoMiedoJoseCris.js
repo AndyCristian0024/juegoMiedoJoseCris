@@ -60,6 +60,7 @@ function tercero() {
         principal.style.backgroundAttachment = "scroll";
         texto.innerHTML = "Toca el balon para cogerlo y poder irte";
         zonaClic.style.display = "none";
+        document.getElementById("tercera").style.display = "none";
         document.getElementById("cuarta").style.display= "block";
     }
 }
